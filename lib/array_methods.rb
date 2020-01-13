@@ -4,6 +4,6 @@ def find_element_index(array, value_to_find)
     break if array[counter] == value_to_find
     counter += 1
   end
-  return counter + 1
+  return counter
 end
 
