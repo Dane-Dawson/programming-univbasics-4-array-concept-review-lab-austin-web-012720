@@ -17,14 +17,3 @@ def find_max_value(array)
   end
   return max_value
 end
-
-def find_min_value(array)
-    counter = 0
-    min_value = 
-  while array[counter] do
-    if (array[counter] > min_value)
-      min_value == array[counter]
-    counter += 1
-  end
-  return max_value
-end
